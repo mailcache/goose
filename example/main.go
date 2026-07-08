@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/gorilla/pat"
-	"github.com/ian-kent/goose"
+	"github.com/mailcache/goose"
+	"github.com/mailcache/pat"
 )
 
 var stream *goose.EventStream
